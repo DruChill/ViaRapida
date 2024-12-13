@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author macbookair
  */
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/api/users/v1")
 public class ClientesController {
     @Autowired
     private ClientesService userService;
